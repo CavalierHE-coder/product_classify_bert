@@ -1,0 +1,14 @@
+﻿__pycache__/
+*.pyc
+.idea/
+.vscode/
+.env
+*.db
+
+# 大文件和生成物不上传
+checkpoints/
+logs/
+pretrained/
+
+# data 里只忽略处理后的数据,保留 raw
+data/processed/
